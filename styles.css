@@ -1,0 +1,98 @@
+body {
+    background-color: papayawhip;
+    background-image: linear-gradient(to right, transparent 50%, rgba(255, 255, 255, 0.5) 50%),
+    linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+    background-size: 20px 20px;
+        
+}
+
+#header{
+    padding-left: 30px;
+    width: 175px;
+    height:auto;
+    
+}
+
+h1{
+    color: skyblue;
+    font-family: fantasy;
+    font-size: 200%;
+
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#text{
+    border: 1px solid black;
+    margin: 10px 100px 35px 100px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#sub{
+    border: 1px solid black;
+    margin: 10px 100px 35px 100px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figcaption{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+figure{
+
+}
+
+<style>
+* {
+    box-sizing: border-box;
+  }
+
+  #id {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:70%;
+    max-height:850px;
+  }
+
+  #im {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .column {
+    float: left;
+    width: 28%;
+    padding: 2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+}
+</style>
